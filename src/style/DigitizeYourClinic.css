@@ -1,0 +1,50 @@
+.digitze-your-clinic{
+    width: 90%;
+    background: linear-gradient(90deg, #1972C4 0%, #2A7CC8 100%);
+    padding: 80px 50px;
+    margin: 150px auto;
+    border-radius: 16px;
+}
+
+.digitze-your-clinic h1{
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.digitze-your-clinic p{
+    text-align: center;
+    margin-top: 20px;
+    color: #fefefe;
+}
+
+.buttons-digitize-container{
+  display: flex;
+  gap: 20px;
+  margin: 60px auto 0;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+.buttons-digitize-container button{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 240px;
+  padding: 14px 24px;
+  white-space: nowrap;
+}
+.buttons-digitize-container button .demo-icon{
+  font-size: 25px;
+}
+.buttons-digitize-container .whatsapp-btn .whatsapp-icon{
+  width: 24px;
+  height: 24px;
+}
+.buttons-digitize-container .whatsapp-btn{
+  justify-content: center;
+}
+
+ 

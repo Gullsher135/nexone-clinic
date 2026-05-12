@@ -1,0 +1,38 @@
+.get-start-section{
+    width: 100%;
+}
+.get-start-section h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.get-start-section .bobs img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.get-start-section .text{
+    width: 85%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 9%;
+}
+
+
+
+.get-start-section .text h3{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.get-start-section .text p{
+    color: #4B5563;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.in-action-section h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+}
+.in-action-section p{
+    font-size: 16px;
+    color: #4B5563;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.in-action-section .screen-overview-container .overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+.in-action-section .screen-overview-container .overview .text{
+    width: 45%;
+}
+.in-action-section .screen-overview-container .overview .text h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.in-action-section .screen-overview-container .overview .text p{
+    text-align: left;
+}
+.in-action-section .screen-overview-container .overview .visual{
+    width: 45%;
+}
+.in-action-section .screen-overview-container .overview .visual img{
+    width: 100%; 
+}
+
+.patient-registration-overview , .ehr-overview{
+    margin-top: 100px !important;
+}

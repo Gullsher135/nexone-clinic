@@ -1,0 +1,70 @@
+.solution-section{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.solution-section .features,
+.solution-section .workflow{
+    box-sizing: border-box;
+}
+.solution-section .features{
+    width: 54%;
+}
+.solution-section .workflow{
+    width: 42%;
+}
+.solution-section .features h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.features-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 20px;
+}
+.features-cards .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.features-cards .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 14px 22px rgba(0, 0, 0, 0.18);
+}
+
+.features-cards .card h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features-cards .card p{
+    margin-top: 6px;
+    color: #4B5563; 
+}
+
+
+.solution-section .workflow p{
+    font-size: 16px;
+    color: #4B5563;
+    font-weight: 400;
+}
+.solution-section .workflow img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-top: 100px;
+}

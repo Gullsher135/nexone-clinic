@@ -1,0 +1,129 @@
+.plans-section{
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    position: relative;
+}
+.plans-section h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.popular-container p{
+    background: linear-gradient(#6EAEFF 0% , #4285DA 100%);
+    color: #fff;
+    padding: 6px 12px;
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1.5px solid #fff;
+    position: absolute;
+    left: 46%;
+    top: 25%;
+}
+
+.plans-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-items: center;
+}      
+
+.plans-cards .card{
+    width: 30%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #fff;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-cards .standard{
+    background: linear-gradient(180deg, #5D99E5 0%, #3068B0 100%);
+    height: 500px;
+    margin-top: -50px;
+}
+
+.plans-cards .standard .split .left h2 {
+    color: #fff;
+}
+.plans-cards .standard .split .left h2  span{
+    color: #fff !important;
+}
+.plans-cards .standard .split .right p {
+    background-color: #5D99E5 !important;
+    color: #fff !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.plans-cards .standard .pkg-features p{
+    color: #fff !important;
+}
+.plans-cards .standard .button-container .btn{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: none !important;
+}
+.plans-cards .standard .button-container .btn:hover{
+    background: none !important;
+    color: #fff !important;
+    outline: 1.5px solid #fff !important;
+}
+
+.plans-cards .card .split{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans-cards .card .split .left h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.plans-cards .card .split .left h2 > span{
+    font-size: 19px;
+    color: #4A4848;
+    font-weight: 400;
+}
+
+.plans-cards .card .split .right p {
+    background-color: #f4f4f4f4;
+    padding: 6px 26px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.plans-cards .card .pkg-features{
+    margin-top: 32px;
+}
+.plans-cards .card .pkg-features p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.plans-cards .card .button-container{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+.plans-cards .card .button-container .btn{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 16px;
+    border: none;
+    outline: 1.5px solid #2563EB;
+    color: #2563EB;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.plans-cards .card .button-container .btn:hover{
+    background-color: #2563EB;
+    color: #fff;
+
+}
