@@ -98,6 +98,12 @@ img {
   }
 }
 
+@media (max-width: 992px) {
+  .popular-container {
+    display: none;
+  }
+}
+
 /* ---------- PROBLEM SECTION ---------- */
 @media (max-width: 992px) {
   .cards {
