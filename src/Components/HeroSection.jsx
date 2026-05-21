@@ -2,7 +2,6 @@ import React from "react";
 
 // ---IMAGES---
 import heroImage from "../assets/hero-image.png";
-import Dashboard from "../assets/dashboard.png";
 
 // ---STYLES---
 import "../style/hero.css";
@@ -43,10 +42,6 @@ const HeroSection = () => {
         <button className="outlined_btn whatsapp-btn" onClick={() => window.open('https://wa.me/923358433067?text=Hi%20Nexone%20Clinic%2C%20I%20want%20a%20demo')}>
           {<img src={WhatsAppIcon} alt="WhatsApp icon" className="whatsapp-icon"/>}Contact on Whatsapp
         </button>
-      </div>
-
-      .<div className="dashboard-image-container">
-        <img src={Dashboard} alt="Dashboard" className="dashboard-image" />
       </div>
     </div>
   );
