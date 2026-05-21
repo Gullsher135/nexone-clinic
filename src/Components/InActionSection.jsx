@@ -9,7 +9,7 @@ import PatientRegistation from "../assets/patient-registration.png";
 
 const InActionSection = () => {
   return (
-    <div className="in-action-section section">
+    <div id="in-action" className="in-action-section section">
       <h1>See Nexone Clinic in action</h1>
       <p>Live previews of dashboard, patient form, and medical report</p>
 

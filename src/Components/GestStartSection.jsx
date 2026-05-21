@@ -8,7 +8,7 @@ import Bobs from '../assets/bobs.png'
 
 const GestStartSection = () => {
   return (
-    <div className="get-start-section section">
+    <div id="get-start" className="get-start-section section">
       <h1>Get started in 3 steps</h1>
       <div className="bobs">
         <img src={Bobs} alt="" />

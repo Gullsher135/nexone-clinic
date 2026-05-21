@@ -11,7 +11,7 @@ import WorkflowImage from '../assets/workflow.png'
 
 const SolutionSection = () => {
   return (
-   <div className="solution-section section">
+   <div id="solution" className="solution-section section">
 
     <div className="features">
         <h1>Nexone Clinic makes <br /> everything easy</h1>

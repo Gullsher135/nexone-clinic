@@ -17,46 +17,31 @@ const index = () => {
         {/* ---COMPONENTS--- */}
 
         {/* --Hero Section-- */}
-        <div id="hero">
-          <HeroSection />
-        </div>
+        <HeroSection />
 
         {/* ---PROBLEM SECTION--- */}
-        <div id="problem">
-          <ProblemSection />
-        </div>
+        <ProblemSection />
 
         {/* ---SOLUTION SECTION--- */}
-        <div id="solution">
-          <SolutionSection />
-        </div>
+        <SolutionSection />
 
         {/* ---FEATURES SECTION--- */}
-        <div id="features">
-          <FeaturesSection />
-        </div>
+        <FeaturesSection />
 
         {/* ---GET START SECTION */}
-        <div id="get-started">
-          <GetStartSection />
-        </div>
+        <GetStartSection />
 
         {/* ---PLANS SECTION--- */}
-        <div id="pricing">
-          <PlansSection />
-        </div>
+        <PlansSection />
 
         {/* ---IN ACTION SECTION--- */}
-        <div id="in-action">
-          <InActionSection />
-        </div>
+        <InActionSection />
 
         {/* ---DigitizeYourClinic--- */}
         <DigitizeYourClinic />
 
         {/* ---FOOTER--- */}
         <Footer />
-
     </div>
   )
 }

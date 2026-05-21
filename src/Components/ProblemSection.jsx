@@ -11,7 +11,7 @@ import TimeIcon from "../assets/time.png";
 
 const ProblemSection = () => {
   return (
-    <div className="problem-section section">
+    <div id="problem" className="problem-section section">
       <h1>Still managing your clinics manually?</h1>
       <p>
         Paper‑based systems create hidden costs and frustration every single

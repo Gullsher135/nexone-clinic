@@ -13,7 +13,7 @@ import dailyReportsIcon from "../assets/reports.png";
 
 const FeaturesSection = () => {
   return (
-    <div className="features-section section">
+    <div id="features" className="features-section section">
       <h1>Everything you need</h1>
 
       <div className="features-cards-container">

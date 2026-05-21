@@ -10,7 +10,7 @@ import NotAvailableIcon from '../assets/not-vailable.png';
 
 const PlansSection = () => {
   return (
-    <div className="plans-section section">
+    <div id="plans" className="plans-section section">
         <h1>Transparent daily pricing</h1>
 
         <div className="popular-container">
@@ -39,7 +39,7 @@ const PlansSection = () => {
               </div>
 
               <div className="button-container">
-                <button className="btn" onClick={() => window.open('https://wa.me/923349471828?text=Hi%20Nexone%20Clinic%2C%20I%20want%20to%20get%20Basic%20plan')}>Get Basic</button>
+                <button className="btn">Get Basic</button>
               </div>
 
             </div>
@@ -64,7 +64,7 @@ const PlansSection = () => {
               </div>
 
               <div className="button-container">
-                <button className="btn" onClick={() => window.open('https://wa.me/923349471828?text=Hi%20Nexone%20Clinic%2C%20I%20want%20to%20get%20Standard%20plan')}>Get Standard</button>
+                <button className="btn">Get Standard</button>
               </div>
             </div>
 
@@ -88,7 +88,7 @@ const PlansSection = () => {
               </div>
 
               <div className="button-container">
-                <button className="btn" onClick={() => window.open('https://wa.me/923349471828?text=Hi%20Nexone%20Clinic%2C%20I%20want%20to%20get%20Premium%20plan')}>Get Premium</button>
+                <button className="btn">Get Premium</button>
               </div>
             </div>
         </div>
