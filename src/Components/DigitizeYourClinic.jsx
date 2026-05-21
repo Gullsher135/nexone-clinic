@@ -5,7 +5,6 @@ import '../style/DigitizeYourClinic.css'
 
 // ---ICONS---
 import { HiOutlineShieldCheck } from "react-icons/hi2";
-import { IoLogoWhatsapp } from "react-icons/io";
 import WhatsAppIcon from "../assets/WhatsApp.png";
 
 const DigitizeYourClinic = () => {

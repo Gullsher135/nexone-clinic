@@ -11,6 +11,9 @@ import InActionSection from '../Components/InActionSection'
 import DigitizeYourClinic from '../Components/DigitizeYourClinic'
 import Footer from '../Components/Footer'
 
+// ---STYLE---
+import '../style/media.css'
+
 const index = () => {
   return (
     <div>

@@ -1,0 +1,493 @@
+/* ============================================
+   MEDIA.CSS – Responsive Overrides & Fixes
+   ============================================ */
+
+/* ---------- GLOBAL RESPONSIVE RESETS ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- HERO SECTION (critical fixes) ---------- */
+@media (max-width: 1200px) {
+  .hero-section .image-container img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    min-height: 600px;
+  }
+
+  .hero-section .text-container {
+    top: 8%;
+  }
+
+  .hero-section .text-container h1 {
+    font-size: 48px;
+    padding: 0 20px;
+  }
+
+  .hero-section .text-container p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .buttons-container {
+    top: 30%;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .buttons-container button {
+    width: 260px !important;
+    font-size: 14px;
+  }
+
+  .dashboard-image-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 30px auto 0;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .dashboard-image-container .dashboard-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .text-container {
+    top: 5%;
+  }
+
+  .hero-section .text-container h1 {
+    font-size: 32px;
+  }
+
+  .hero-section .text-container p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .buttons-container {
+    top: 22%;
+  }
+
+  .buttons-container button {
+    width: 220px !important;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section .text-container h1 {
+    font-size: 26px;
+  }
+
+  .hero-section .text-container p {
+    font-size: 13px;
+  }
+
+  .buttons-container button {
+    width: 200px !important;
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .buttons-container .whatsapp-btn .whatsapp-icon {
+    width: 18px;
+  }
+}
+
+/* ---------- PROBLEM SECTION ---------- */
+@media (max-width: 992px) {
+  .cards {
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .cards .card {
+    width: calc(50% - 20px);
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .problem-section h1 {
+    font-size: 28px;
+    padding: 0 16px;
+  }
+
+  .problem-section > p {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+
+  .cards .card {
+    width: 100%;
+  }
+
+  .cards .card .text-container h2 {
+    font-size: 20px;
+  }
+}
+
+/* ---------- SOLUTION SECTION ---------- */
+@media (max-width: 992px) {
+  .solution-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .solution-section .features,
+  .solution-section .workflow {
+    width: 100%;
+  }
+
+  .solution-section .features h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .features-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .solution-section .workflow img {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .features-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .features-cards .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .solution-section .workflow p {
+    text-align: center;
+  }
+}
+
+/* ---------- FEATURES SECTION ---------- */
+@media (max-width: 992px) {
+  .features-section {
+    padding: 20px 20px;
+  }
+
+  .features-section h1 {
+    font-size: 32px;
+  }
+
+  .features-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .features-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .features-cards-container .card {
+    text-align: center;
+  }
+}
+
+/* ---------- GET START SECTION ---------- */
+@media (max-width: 992px) {
+  .get-start-section h1 {
+    font-size: 32px;
+  }
+
+  .get-start-section .text {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .get-start-section .text .step {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .get-start-section h1 {
+    font-size: 28px;
+  }
+
+  .get-start-section .text h3 {
+    font-size: 20px;
+  }
+}
+
+/* ---------- PLANS SECTION (fully responsive + base styles) ---------- */
+/* base styles for plans section (since original was missing) */
+.plans-section {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.plans-section h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.popular-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popular-container p {
+  display: inline-block;
+  background: #FFD966;
+  padding: 6px 18px;
+  border-radius: 40px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.plans-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.plans-cards .card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 300px;
+  transition: transform 0.2s ease;
+  border: 1px solid #E5E7EB;
+}
+
+.plans-cards .card:hover {
+  transform: translateY(-8px);
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.split .left h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: #1F2937;
+}
+
+.split .left span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.split .right p {
+  background: #EFF6FF;
+  padding: 4px 12px;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #1E40AF;
+}
+
+.pkg-features {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.pkg-features p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  color: #374151;
+  font-size: 14px;
+}
+
+.pkg-features img {
+  width: 20px;
+  height: 20px;
+}
+
+.button-container .btn {
+  background: #1972C4;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button-container .btn:hover {
+  background: #0E5A9C;
+}
+
+/* standard card highlight */
+.plans-cards .standard {
+  border: 2px solid #1972C4;
+  transform: scale(1.02);
+}
+
+/* responsive plans */
+@media (max-width: 768px) {
+  .plans-section h1 {
+    font-size: 32px;
+  }
+
+  .plans-cards {
+    gap: 20px;
+  }
+
+  .plans-cards .card {
+    width: 280px;
+  }
+
+  .plans-cards .standard {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .plans-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plans-cards .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+/* ---------- IN ACTION SECTION ---------- */
+@media (max-width: 992px) {
+  .in-action-section h1 {
+    font-size: 32px;
+  }
+
+  .in-action-section .screen-overview-container .overview {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .in-action-section .screen-overview-container .overview .text,
+  .in-action-section .screen-overview-container .overview .visual {
+    width: 90%;
+  }
+
+  .in-action-section .screen-overview-container .overview .text p {
+    text-align: center;
+  }
+
+  .in-action-section .screen-overview-container .overview .visual {
+    margin-top: 20px;
+    order: 2;
+  }
+
+  /* fix order for alternating sections */
+  .in-action-section .screen-overview-container .patient-registration-overview .visual {
+    order: 1;
+  }
+  .in-action-section .screen-overview-container .patient-registration-overview .text {
+    order: 2;
+  }
+
+  .in-action-section .screen-overview-container .overview .text h2 {
+    font-size: 28px;
+  }
+
+  .patient-registration-overview,
+  .ehr-overview {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .in-action-section h1 {
+    font-size: 26px;
+  }
+
+  .in-action-section .screen-overview-container .overview .text h2 {
+    font-size: 24px;
+  }
+}
+
+/* ---------- DIGITIZE YOUR CLINIC (CTA) ---------- */
+@media (max-width: 992px) {
+  .digitze-your-clinic {
+    width: 90%;
+    padding: 50px 20px;
+    margin: 80px auto;
+  }
+
+  .digitze-your-clinic h1 {
+    font-size: 32px;
+  }
+
+  .buttons-digitize-container {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .buttons-digitize-container button {
+    width: 220px;
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .digitze-your-clinic {
+    padding: 40px 16px;
+  }
+
+  .digitze-your-clinic h1 {
+    font-size: 26px;
+  }
+
+  .digitze-your-clinic p {
+    font-size: 14px;
+  }
+
+  .buttons-digitize-container button {
+    width: 200px;
+    font-size: 13px;
+  }
+}
+
+/* ---------- UTILITIES / FIXES FOR ODD BEHAVIOR ---------- */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
