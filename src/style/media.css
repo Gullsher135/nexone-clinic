@@ -10,6 +10,9 @@ img {
 
 /* ---------- HERO SECTION ---------- */
 @media (max-width: 1200px) {
+    .dashboard-image-container{
+        display: none;
+    }
   .hero-section {
     position: relative;
     min-height: 760px;
