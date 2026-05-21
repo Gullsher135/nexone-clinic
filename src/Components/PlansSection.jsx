@@ -32,10 +32,10 @@ const PlansSection = () => {
               </div>
 
               <div className="pkg-features">
-                <p><img src={AvailabilityIcon}/>Upto 3 doctors</p>
-                <p><img src={AvailabilityIcon}/>500 pateints</p>
-                <p><img src={NotAvailableIcon}/>LIMS/Pharmacy</p>
-                <p><img src={NotAvailableIcon}/>Email support</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>Upto 3 doctors</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>500 patients</p>
+                <p><img src={NotAvailableIcon} alt="Not included feature"/>LIMS/Pharmacy</p>
+                <p><img src={NotAvailableIcon} alt="Not included feature"/>Email support</p>
               </div>
 
               <div className="button-container">
@@ -56,11 +56,11 @@ const PlansSection = () => {
               </div>
 
               <div className="pkg-features">
-                <p><img src={PremiumAvailabilityIcon}/>Unlimited doctors & patients</p>
-                <p><img src={PremiumAvailabilityIcon}/>Full EHR + LIMS + Pharmacy</p>
-                <p><img src={PremiumAvailabilityIcon}/>Full time maintenance</p>
-                <p><img src={PremiumAvailabilityIcon}/>Free upgrades anytime</p>
-                <p><img src={PremiumAvailabilityIcon}/>Priority WhatsApp support</p>
+                <p><img src={PremiumAvailabilityIcon} alt="Included feature"/>Unlimited doctors & patients</p>
+                <p><img src={PremiumAvailabilityIcon} alt="Included feature"/>Full EHR + LIMS + Pharmacy</p>
+                <p><img src={PremiumAvailabilityIcon} alt="Included feature"/>Full time maintenance</p>
+                <p><img src={PremiumAvailabilityIcon} alt="Included feature"/>Free upgrades anytime</p>
+                <p><img src={PremiumAvailabilityIcon} alt="Included feature"/>Priority WhatsApp support</p>
               </div>
 
               <div className="button-container">
@@ -80,11 +80,11 @@ const PlansSection = () => {
               </div>
 
               <div className="pkg-features">
-                <p><img src={AvailabilityIcon}/>Everything in standard</p>
-                <p><img src={AvailabilityIcon}/>Advanced reports & analytics</p>
-                <p><img src={AvailabilityIcon}/>Custom features on demand</p>
-                <p><img src={AvailabilityIcon}/>Multi-branch support</p>
-                <p><img src={AvailabilityIcon}/>Whatsapp report sharing + QR code access</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>Everything in standard</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>Advanced reports & analytics</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>Custom features on demand</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>Multi-branch support</p>
+                <p><img src={AvailabilityIcon} alt="Included feature"/>WhatsApp report sharing + QR code access</p>
               </div>
 
               <div className="button-container">

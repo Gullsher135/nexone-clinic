@@ -42,7 +42,7 @@ const HeroSection = () => {
           {<HiOutlineShieldCheck className="demo-icon" />}Get Free Demo
         </button>
         <button className="outlined_btn whatsapp-btn" onClick={() => window.open('https://wa.me/923358433067?text=Hi%20Nexone%20Clinic%2C%20I%20want%20a%20demo')}>
-          {<img src={WhatsAppIcon} className="whatsapp-icon"/>}Contact on Whatsapp
+          {<img src={WhatsAppIcon} alt="WhatsApp icon" className="whatsapp-icon"/>}Contact on Whatsapp
         </button>
       </div>
 
